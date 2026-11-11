@@ -1,11 +1,11 @@
 {
   "name": "iaf-agent-bridge",
   "version": "1.1.0",
-  "mcpName": "io.github.francescoveryra-dot/iaf-agent-bridge",
+  "mcpName": "io.github.lightunicon/iaf-agent-bridge",
   "description": "MCP bridge that lets a supervisor such as Codex send work to Cursor Agent over ACP and continue the same session until the request is complete.",
   "type": "module",
   "license": "MIT",
-  "author": "francescoveryra-dot",
+  "author": "lightunicon",
   "engines": {
     "node": ">=20"
   },
@@ -37,12 +37,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git"
+    "url": "git+https://github.com/lightunicon/IAF-Agent-Bridge.git"
   },
   "bugs": {
-    "url": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge/issues"
+    "url": "https://github.com/lightunicon/IAF-Agent-Bridge/issues"
   },
-  "homepage": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge#readme",
+  "homepage": "https://github.com/lightunicon/IAF-Agent-Bridge#readme",
   "keywords": [
     "mcp",
     "acp",

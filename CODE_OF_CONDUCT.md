@@ -12,4 +12,4 @@ Be respectful in issues, pull requests, and reviews. Criticism of code is welcom
 
 ## Enforcement
 
-Report conduct problems through a [private security advisory](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/security/advisories/new) so the report is not a public issue. The maintainer may warn, or block further participation, depending on the report. There is no separate conduct email.
+Report conduct problems through a [private security advisory](https://github.com/lightunicon/IAF-Agent-Bridge/security/advisories/new) so the report is not a public issue. The maintainer may warn, or block further participation, depending on the report. There is no separate conduct email.

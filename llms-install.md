@@ -1,6 +1,6 @@
 # Install IAF Agent Bridge
 
-1. Clone `git@github.com:francescoveryra-dot/IAF-Agent-Bridge.git`.
+1. Clone `git@github.com:lightunicon/IAF-Agent-Bridge.git`.
 2. `npm install` and `npm run build`.
 3. Confirm `node dist/cli.js doctor` shows Cursor as authenticated.
 4. Point the MCP host at `node` with args `["/absolute/path/IAF-Agent-Bridge/dist/cli.js"]`.

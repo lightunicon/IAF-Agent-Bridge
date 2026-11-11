@@ -16,7 +16,7 @@ test("only the parsed npm registry host counts as a publication URL", () => {
 test("an npm package claim is structural, not a substring of the document", () => {
   assert.equal(claimsPublishedNpmPackage({
     description: "See https://evil.example/registry.npmjs.org for a lookalike",
-    websiteUrl: "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
+    websiteUrl: "https://github.com/lightunicon/IAF-Agent-Bridge",
   }), false);
   assert.equal(claimsPublishedNpmPackage({
     packages: [{ registryType: "npm", identifier: "iaf-agent-bridge" }],

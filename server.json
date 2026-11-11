@@ -1,12 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.francescoveryra-dot/iaf-agent-bridge",
+  "name": "io.github.lightunicon/iaf-agent-bridge",
   "title": "IAF Agent Bridge",
   "description": "MCP server that sends work to Cursor Agent over ACP and returns the session id needed to continue.",
   "version": "1.1.0",
-  "websiteUrl": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
+  "websiteUrl": "https://github.com/lightunicon/IAF-Agent-Bridge",
   "repository": {
-    "url": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
+    "url": "https://github.com/lightunicon/IAF-Agent-Bridge",
     "source": "github"
   },
   "packages": [

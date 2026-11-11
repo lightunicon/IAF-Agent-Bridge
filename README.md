@@ -6,11 +6,11 @@ The bridge carries the prompt, the session, and Cursor's reply. The supervisor d
 
 `delegate` returns only after that Cursor turn is finished. A message that says the work is complete does not end the call while Cursor is still running tools, sub-agents, or a follow-up. Cursor keeps control of that internal work. The supervisor sees one result, then chooses CONTINUE, COMPLETE, or BLOCKED.
 
-**Status:** [npm `iaf-agent-bridge@1.1.0`](https://www.npmjs.com/package/iaf-agent-bridge) is the current public package. [GitHub Release v1.1.0](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/releases/tag/v1.1.0) matches it. [v1.0.2](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/releases/tag/v1.0.2), [v1.0.1](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/releases/tag/v1.0.1), and [v1.0.0](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/releases/tag/v1.0.0) remain published. The Official MCP Registry entry is [`io.github.francescoveryra-dot/iaf-agent-bridge`](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.francescoveryra-dot%2Fiaf-agent-bridge/versions/latest) version `1.1.0`.
+**Status:** [npm `iaf-agent-bridge@1.1.0`](https://www.npmjs.com/package/iaf-agent-bridge) is the current public package. [GitHub Release v1.1.0](https://github.com/lightunicon/IAF-Agent-Bridge/releases/tag/v1.1.0) matches it. [v1.0.2](https://github.com/lightunicon/IAF-Agent-Bridge/releases/tag/v1.0.2), [v1.0.1](https://github.com/lightunicon/IAF-Agent-Bridge/releases/tag/v1.0.1), and [v1.0.0](https://github.com/lightunicon/IAF-Agent-Bridge/releases/tag/v1.0.0) remain published. The Official MCP Registry entry is [`io.github.lightunicon/iaf-agent-bridge`](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.lightunicon%2Fiaf-agent-bridge/versions/latest) version `1.1.0`.
 
-[![CI](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/actions/workflows/test.yml/badge.svg)](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/actions/workflows/test.yml)
+[![CI](https://github.com/lightunicon/IAF-Agent-Bridge/actions/workflows/test.yml/badge.svg)](https://github.com/lightunicon/IAF-Agent-Bridge/actions/workflows/test.yml)
 [![npm](https://img.shields.io/npm/v/iaf-agent-bridge)](https://www.npmjs.com/package/iaf-agent-bridge)
-[![GitHub Release](https://img.shields.io/github/v/release/francescoveryra-dot/IAF-Agent-Bridge)](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/releases/tag/v1.1.0)
+[![GitHub Release](https://img.shields.io/github/v/release/lightunicon/IAF-Agent-Bridge)](https://github.com/lightunicon/IAF-Agent-Bridge/releases/tag/v1.1.0)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
 
@@ -53,12 +53,12 @@ Personal Private mode is separate from the local stdio server. You create your o
 | Channel | Status | How |
 | --- | --- | --- |
 | npm | AVAILABLE | `npx -y iaf-agent-bridge@1.1.0` |
-| Official MCP Registry | AVAILABLE | [`io.github.francescoveryra-dot/iaf-agent-bridge` 1.1.0](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.francescoveryra-dot%2Fiaf-agent-bridge/versions/1.1.0) |
-| Cursor plugin | DIRECT INSTALL AVAILABLE | `agent plugin marketplace add https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git` |
-| Cursor Marketplace | SUBMITTED — PENDING REVIEW | Not a public install yet. Direct install remains `agent plugin marketplace add https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git`. |
-| Claude Code | DIRECT INSTALL AVAILABLE | `claude plugin marketplace add francescoveryra-dot/IAF-Agent-Bridge` then `claude plugin install iaf-agent-bridge@iaf-agent-bridge` |
-| GitHub Copilot CLI | DIRECT INSTALL AVAILABLE | `copilot plugin marketplace add francescoveryra-dot/IAF-Agent-Bridge` then `copilot plugin install iaf-agent-bridge@iaf-agent-bridge` |
-| Codex / ChatGPT GitHub plugin | DIRECT INSTALL AVAILABLE | `codex plugin marketplace add https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git --ref main` then `codex plugin add iaf-agent-bridge@iaf-agent-bridge` |
+| Official MCP Registry | AVAILABLE | [`io.github.lightunicon/iaf-agent-bridge` 1.1.0](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.lightunicon%2Fiaf-agent-bridge/versions/1.1.0) |
+| Cursor plugin | DIRECT INSTALL AVAILABLE | `agent plugin marketplace add https://github.com/lightunicon/IAF-Agent-Bridge.git` |
+| Cursor Marketplace | SUBMITTED — PENDING REVIEW | Not a public install yet. Direct install remains `agent plugin marketplace add https://github.com/lightunicon/IAF-Agent-Bridge.git`. |
+| Claude Code | DIRECT INSTALL AVAILABLE | `claude plugin marketplace add lightunicon/IAF-Agent-Bridge` then `claude plugin install iaf-agent-bridge@iaf-agent-bridge` |
+| GitHub Copilot CLI | DIRECT INSTALL AVAILABLE | `copilot plugin marketplace add lightunicon/IAF-Agent-Bridge` then `copilot plugin install iaf-agent-bridge@iaf-agent-bridge` |
+| Codex / ChatGPT GitHub plugin | DIRECT INSTALL AVAILABLE | `codex plugin marketplace add https://github.com/lightunicon/IAF-Agent-Bridge.git --ref main` then `codex plugin add iaf-agent-bridge@iaf-agent-bridge` |
 | OpenAI plugin directory | NOT APPLICABLE for this local server | The public directory reviews a hosted HTTPS MCP endpoint. This bridge runs on your machine and talks to your local Cursor CLI. |
 | VS Code MCP gallery | NOT LISTED | VS Code browses the GitHub MCP registry. This server is in the Official MCP Registry and is not in that gallery. Add it with `npx -y iaf-agent-bridge`. |
 
@@ -67,7 +67,7 @@ Manual MCP configuration remains the fallback. See [docs/installation.md](docs/i
 ## Quick start
 
 ```shell
-git clone https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git
+git clone https://github.com/lightunicon/IAF-Agent-Bridge.git
 cd IAF-Agent-Bridge
 npm install
 npm run build
@@ -128,7 +128,7 @@ If `doctor` says Cursor was not found, install the CLI and open a new shell. If 
 
 The bridge can ask Cursor to edit the workspace you name and to run commands there. Read [SECURITY.md](SECURITY.md) and [docs/security-model.md](docs/security-model.md).
 
-Report vulnerabilities privately: [Security advisories](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/security/advisories/new). Do not open a public issue that contains a token, a credential, or a working exploit.
+Report vulnerabilities privately: [Security advisories](https://github.com/lightunicon/IAF-Agent-Bridge/security/advisories/new). Do not open a public issue that contains a token, a credential, or a working exploit.
 
 ## Contributing
 

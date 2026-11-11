@@ -29,11 +29,11 @@ args = ["CLONE/bin/iaf-agent-bridge.mjs"]
 ## Claude Code
 
 ```shell
-claude plugin marketplace add francescoveryra-dot/IAF-Agent-Bridge
+claude plugin marketplace add lightunicon/IAF-Agent-Bridge
 claude plugin install iaf-agent-bridge@iaf-agent-bridge
 ```
 
-Inside a session the same steps are `/plugin marketplace add francescoveryra-dot/IAF-Agent-Bridge` and `/plugin install iaf-agent-bridge@iaf-agent-bridge`.
+Inside a session the same steps are `/plugin marketplace add lightunicon/IAF-Agent-Bridge` and `/plugin install iaf-agent-bridge@iaf-agent-bridge`.
 
 A source checkout can also be added with `claude mcp add iaf-agent-bridge -- node CLONE/dist/cli.js`. The published package is `npx -y iaf-agent-bridge@1.1.0`. See [marketplaces.md](marketplaces.md).
 

@@ -3,7 +3,7 @@
 ## Setup
 
 ```shell
-git clone https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git
+git clone https://github.com/lightunicon/IAF-Agent-Bridge.git
 cd IAF-Agent-Bridge
 npm ci
 npm test

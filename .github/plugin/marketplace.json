@@ -1,7 +1,7 @@
 {
   "name": "iaf-agent-bridge",
   "owner": {
-    "name": "francescoveryra-dot"
+    "name": "lightunicon"
   },
   "metadata": {
     "description": "Continue Cursor Agent sessions from an MCP supervisor.",

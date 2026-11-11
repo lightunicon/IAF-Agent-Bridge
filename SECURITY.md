@@ -21,13 +21,13 @@ Report privately when the issue could let someone:
 
 Do not include tokens, passwords, private keys, `.env` contents, customer data, or a proof of concept that drops or exfiltrates data. Use a private advisory instead.
 
-Ordinary bugs and feature requests belong in [Issues](https://github.com/francescoveryra-dot/IAF-Agent-Bridge/issues).
+Ordinary bugs and feature requests belong in [Issues](https://github.com/lightunicon/IAF-Agent-Bridge/issues).
 
 ## How to report
 
 Open a private advisory:
 
-https://github.com/francescoveryra-dot/IAF-Agent-Bridge/security/advisories/new
+https://github.com/lightunicon/IAF-Agent-Bridge/security/advisories/new
 
 Include the version or commit, the host, what you expected, and the smallest description that shows the problem. Redact secrets.
 

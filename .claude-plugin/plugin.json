@@ -5,10 +5,10 @@
   "version": "1.1.0",
   "description": "MCP server that continues Cursor Agent sessions from a supervisor such as Claude Code or Codex.",
   "author": {
-    "name": "francescoveryra-dot"
+    "name": "lightunicon"
   },
-  "homepage": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
-  "repository": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
+  "homepage": "https://github.com/lightunicon/IAF-Agent-Bridge",
+  "repository": "https://github.com/lightunicon/IAF-Agent-Bridge",
   "license": "MIT",
   "mcpServers": "./.claude-plugin/mcp.json",
   "hooks": "./.claude-plugin/hooks.json",

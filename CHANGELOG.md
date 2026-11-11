@@ -24,7 +24,7 @@ This project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
-- `mcpName` `io.github.francescoveryra-dot/iaf-agent-bridge` in the npm package, so the Official MCP Registry can verify ownership of `iaf-agent-bridge`. `1.0.0` stays published without that field.
+- `mcpName` `io.github.lightunicon/iaf-agent-bridge` in the npm package, so the Official MCP Registry can verify ownership of `iaf-agent-bridge`. `1.0.0` stays published without that field.
 
 ## [1.0.0] - 2026-10-02
 
@@ -45,7 +45,7 @@ First public release.
 Install from the Git repository:
 
 ```shell
-git clone https://github.com/francescoveryra-dot/IAF-Agent-Bridge.git
+git clone https://github.com/lightunicon/IAF-Agent-Bridge.git
 cd IAF-Agent-Bridge
 npm install
 npm run build

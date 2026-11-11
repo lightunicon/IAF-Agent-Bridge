@@ -4,11 +4,11 @@
   "version": "1.1.0",
   "description": "Continue Cursor Agent sessions from an MCP supervisor until the requested work is done.",
   "author": {
-    "name": "francescoveryra-dot",
-    "url": "https://github.com/francescoveryra-dot"
+    "name": "lightunicon",
+    "url": "https://github.com/lightunicon"
   },
-  "homepage": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
-  "repository": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
+  "homepage": "https://github.com/lightunicon/IAF-Agent-Bridge",
+  "repository": "https://github.com/lightunicon/IAF-Agent-Bridge",
   "license": "MIT",
   "keywords": [
     "mcp",
@@ -20,12 +20,12 @@
       "interface": {
         "displayName": "IAF Agent Bridge",
         "shortDescription": "Continue Cursor sessions until the work is done",
-        "developerName": "francescoveryra-dot",
+        "developerName": "lightunicon",
         "category": "Developer Tools",
         "capabilities": ["Read", "Write"],
-        "websiteURL": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge",
-        "privacyPolicyURL": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge/blob/main/PRIVACY.md",
-        "termsOfServiceURL": "https://github.com/francescoveryra-dot/IAF-Agent-Bridge/blob/main/TERMS.md",
+        "websiteURL": "https://github.com/lightunicon/IAF-Agent-Bridge",
+        "privacyPolicyURL": "https://github.com/lightunicon/IAF-Agent-Bridge/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/lightunicon/IAF-Agent-Bridge/blob/main/TERMS.md",
         "logo": "./assets/logo.svg",
         "defaultPrompt": "Have Cursor implement this, then continue the same Cursor session until the requested work is complete."
       }
